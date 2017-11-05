@@ -3,6 +3,7 @@ Console logging with colors, done as simply as it gets.
 
 Consolomatic is an extension of the existing node global Console object to allow coloring of console messages. Unlike other console coloring modules you dont need to write your log/info/war/error calls any differently.
 
+[![Build Status](https://travis-ci.org/gregtillbrook/consolomatic.svg?branch=master)](https://travis-ci.org/gregtillbrook/consolomatic)
 
 # Install
 
