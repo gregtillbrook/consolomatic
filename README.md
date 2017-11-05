@@ -24,18 +24,20 @@ console.info('An info message');
 console.warn('A warning message');
 console.error('An error message');
 ```
+![Screenshot showing output for console methods](/docs/basic_messages.png?raw=true)
 
 ### customise message colors
 ```javascript
 import console, {colours} from 'consolomatic';
 
 //customize the color of console methods
-console.setColor('warn', colors.Magenta);
+console.setColor('warn', colors.magenta);
 console.warn('All warn messages are now magenta');
 
 //Use colors inside template strings to color specific words or parts of messages
-console.info(`A message with a ${colors.Green}green${colors.Reset} word`);
+console.info(`A message with a ${colors.green}green${colors.reset} word`);
 ```
+![Screenshot showing output for custom messages](/docs/custom_messages.png?raw=true)
 
 ### if not using ES6 and module imports
 ```javascript
@@ -55,14 +57,14 @@ All of the existing console methods (e.g. .count, .time) work as before. Also, t
 import console, {colours} from 'consolomatic';
 
 //customize the color of console methods
-console.setColor('warn', colors.Magenta);
+console.setColor('warn', colors.magenta);
 console.warn('All warn messages are now magenta');
 ```
 
 ### addConsoleMethod
 ```javascript
 import console, {colours} from 'consolomatic';
-console.addConsoleMethod('green', colors.Green);
+console.addConsoleMethod('green', colors.green);
 console.green('A completely green message');
 ```
 
