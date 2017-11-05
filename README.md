@@ -36,6 +36,13 @@ console.warn('All warn messages are now magenta');
 console.info(`A message with a ${colors.Green}green${colors.Reset} word`);
 ```
 
+### if not using ES6 and module imports
+```javascript
+var console = require('consolomatic').default;
+var colors = require('consolomatic').colors;
+//the rest is the same
+console.log('A log message');
+```
 
 # API
 

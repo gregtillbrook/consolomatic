@@ -1,9 +1,12 @@
 {
   "name": "consolomatic",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Console logging with colors, done as simply as it gets.",
+  "keywords": ["console", "consoles", "colour", "color", "colorize", "colorise", "terminal", "log", "logging", "info", "warn", "error", "style", "simple"],
   "author": "Greg Tillbrook",
   "license": "MIT",
+  "repository": "gregtillbrook/consolomatic",
+  "engines": { "node": ">=4" },
   "main": "./bin/index.js",
   "scripts": {
     "test": "npm run lint && npm run test:unit",
