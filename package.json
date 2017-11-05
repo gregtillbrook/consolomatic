@@ -1,0 +1,26 @@
+{
+  "name": "consolomatic",
+  "version": "1.0.0",
+  "description": "Console logging with colors, done as simply as it gets.",
+  "author": "Greg Tillbrook",
+  "license": "MIT",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "npm run lint && npm run test:unit",
+    "lint": "npx eslint src/**",
+    "test:unit": "npx mocha --require babel-register src/*.test.js || true",
+    "build":"npm run clean && npm run babelify",
+    "clean":"rm -rf bin",
+    "babelify":"cd ./src && npx babel '*.js' -d '../bin' --ignore test.js && cd .."
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.10.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "sinon": "^4.1.0",
+    "sinon-chai": "^2.14.0"
+  }
+}
