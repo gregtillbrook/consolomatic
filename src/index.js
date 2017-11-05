@@ -17,7 +17,7 @@ function makeColorWrappedConsoleMethod(consoleColorPresetToUse = 'info', console
     const presetColor = consoleColorPresets[consoleColorPresetToUse];
     if(presetColor){
       //use util.format just as native version https://github.com/nodejs/node/blob/af11867b4180b033320e4f0c7d52c2bcfb957852/lib/console.js
-      //we join the formatted into with style strings so console method doesnt insert unwanted spaces
+      //we Array.join the formatted params with 'colors' so console method doesnt insert unwanted spaces
       NATIVE_CONSOLE[consoleMethodName]([presetColor, util.format.apply(null, args),  colors.reset].join(''));
     }else{
       NATIVE_CONSOLE[consoleMethodName];
