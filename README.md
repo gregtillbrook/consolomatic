@@ -77,7 +77,7 @@ If you want colored console messages in the entire project but dont want to impo
  - cyan
  - white
 
-###background colors
+### background colors
  - bgBlack
  - bgRed
  - bgGreen
@@ -87,7 +87,7 @@ If you want colored console messages in the entire project but dont want to impo
  - bgCyan
  - bgWhite
 
-###other styles
+### other styles
 support for these varies by platform
  - reset
  - bright
