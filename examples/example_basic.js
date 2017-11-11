@@ -1,4 +1,9 @@
-import console, {colors}  from './index';
+/*
+  Example code that illustrates typical usage. e.g.
+    - import consolomatic into the module you want colored console messages
+    - call console methods as documented in readme
+*/
+import console, {colors}  from 'consolomatic';
 
 console.log('A log message');
 console.info('An info message');

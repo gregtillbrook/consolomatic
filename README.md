@@ -8,7 +8,7 @@ Consolomatic is an extension of the existing node global Console object to allow
 # Install
 
 ```sh
-npm install --save-dev consolomatic
+npm install consolomatic
 ```
 
 
@@ -73,7 +73,7 @@ console.green('A completely green message');
 import console from 'consolomatic';
 console.overrideGlobal();
 ```
-If you want colored console messages in the entire project but dont want to import consolomatic in every file, you can call overrideGlobal to override the global.console. Due to the that imports are evaluated you'll need to make this call from an imported 'setup' file see example in `./examples/example_global_override.js`
+If you want colored console messages in the entire project but dont want to import consolomatic in every file, you can call overrideGlobal to override the global.console. Due to the way that imports are evaluated (imported module is evaluated before its parent module) you'll need to make this call from an imported 'setup' file see example in (examples/example_global_override.js)[examples/example_global_override.js]
 
 
 # Colors

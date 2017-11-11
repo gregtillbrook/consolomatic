@@ -1,2 +1,2 @@
-import console  from './index';
+import console  from 'consolomatic';
 console.overrideGlobal();
