@@ -1,6 +1,6 @@
 {
   "name": "consolomatic",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Console logging with colors, done as simply as it gets.",
   "keywords": [
     "console",
