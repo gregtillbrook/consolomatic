@@ -27,8 +27,8 @@
   "main": "./bin/index.js",
   "scripts": {
     "test": "npm run lint && npm run test:unit",
-    "lint": "node ./node_modules/eslint/bin/eslint.js src/**",
-    "test:unit": "./node_modules/mocha/bin/mocha --require babel-register src/*.test.js",
+    "lint": "node node_modules/eslint/bin/eslint.js src/**",
+    "test:unit": "node node_modules/mocha/bin/mocha --require babel-register src/*.test.js",
     "build": "npm run clean && npm run babelify",
     "clean": "rm -rf bin",
     "babelify": "cd ./src && npx babel '*.js' -d '../bin' --ignore test.js && cd .."
