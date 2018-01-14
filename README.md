@@ -6,7 +6,7 @@ Consolomatic is an extension of the existing node global Console object to allow
 [![NPM Version][npm-image]][npm-url]
 [![Linux CI Build][travis-image]][travis-url]
 [![Windows CI Build][appveyor-image]][appveyor-url]
-[![Known Vulnerabilities](snyk-image)][snyk-url]
+[![Known Vulnerabilities][snyk-image]][snyk-url]
 
 # Install
 
@@ -119,5 +119,5 @@ support for these varies by platform
 [travis-url]: https://travis-ci.org/gregtillbrook/consolomatic
 [appveyor-image]: https://img.shields.io/appveyor/ci/gregtillbrook/consolomatic/master.svg?label=Windows%20CI%20Build
 [appveyor-url]: https://ci.appveyor.com/project/gregtillbrook/consolomatic
-[snyk-image]: https://snyk.io/test/github/gregtillbrook/node-while/badge.svg
-[snyk-url]: https://snyk.io/test/github/gregtillbrook/node-while
+[snyk-image]: https://snyk.io/test/github/gregtillbrook/consolomatic/badge.svg
+[snyk-url]: https://snyk.io/test/github/gregtillbrook/consolomatic
